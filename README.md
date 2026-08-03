@@ -7,6 +7,13 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-5AD8A6?style=flat-square" alt="License MIT">
+  <img src="https://img.shields.io/badge/Skill-v1.0.0-BCC5D0?style=flat-square" alt="Skill version 1.0.0">
+  <img src="https://img.shields.io/badge/Agent-agnostic-FFAA4C?style=flat-square" alt="Agent agnostic">
+</p>
+
+<p align="center">
+  <a href="#这是什么">这是什么</a> ·
   <a href="#快速使用">快速使用</a> ·
   <a href="#真实使用案例">真实案例</a> ·
   <a href="#四类审计">四类审计</a> ·
@@ -15,21 +22,11 @@
 
 ---
 
-## 真实使用案例
+## 这是什么
 
-<p align="center">
-  <img src="./assets/readme/henu-kit-audit-example.svg" width="100%" alt="public-ready 对 HENU Kit 的真实审计结果节选，展示扫描概述和四类代表性发现">
-</p>
+`public-ready` 是一个面向网站和 Web 应用的**发布前文案审计 Skill**。它会先理解产品定位、目标用户和语气基准，再扫描最终呈现在界面上的文本，找出不适合直接上线的内容。
 
-上图来自 `public-ready` 对 **HENU Kit** 的一次真实扫描：覆盖 Portal、Console、旧学习平台、QuizCraft 和后端透传错误文案，同类合并后发现 **66 条**问题，其中 **12 条属于上线阻塞项**。
-
-截图选择了四类最有代表性的发现：生产示例数据的合规风险、面向学生暴露内部配置、产品声明缺失，以及第三方地址硬编码。它们同时展示了这个 Skill 的核心能力：**理解产品背景、追踪真实渲染路径、给出文件级证据，并提供可执行修改建议。**
-
-> 图片是对真实运行输出的适配排版，内容来自实际扫描结果；完整输出仍以 Markdown 对账表交付。
-
-## 输出格式
-
-`public-ready` 不只告诉你“这句话不太好”，而是给出可定位、可判断、可执行的对账结果：
+它不只告诉你「这句话不太好」，而是给出可定位、可判断、可执行的对账结果：
 
 | 位置 | 原文 | 分类 | 问题 | 建议 | 优先级 |
 | --- | --- | --- | --- | --- | --- |
@@ -37,15 +34,25 @@
 
 > 默认只输出对账表，不直接修改代码。用户确认建议后，Agent 才进入修改阶段。
 
-## public-ready 是什么
-
-`public-ready` 是一个面向网站和 Web 应用的**发布前文案审计 Skill**。它会先理解产品定位、目标用户和语气基准，再扫描最终呈现在界面上的文本，找出不适合直接上线的内容。
-
 适用于 Claude Code、Codex、Cursor、Hermes、Trae 等能够读取 Agent Skill 的工具，不绑定特定 Agent 实现。
 
 ## 快速使用
 
-### 1. 把 Skill 文件交给 Agent
+### 1. 安装
+
+**Claude Code（全局可用）**
+
+```bash
+git clone https://github.com/jry21223/public-ready.git ~/.claude/skills/public-ready
+```
+
+**Claude Code（只在当前项目可用）**
+
+```bash
+git clone https://github.com/jry21223/public-ready.git .claude/skills/public-ready
+```
+
+**其他 Agent**：把下面两个文件直接交给它读取。
 
 ```text
 https://raw.githubusercontent.com/jry21223/public-ready/main/SKILL.md
@@ -64,6 +71,8 @@ https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-co
 <details>
 <summary>查看常见触发方式</summary>
 
+<br>
+
 - 「帮我做一下发布前准备」
 - 「这个页面能上线吗？」
 - 「文案读起来像程序员写的」
@@ -71,6 +80,18 @@ https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-co
 - 「看看有没有占位、测试数据或写死的内容」
 
 </details>
+
+## 真实使用案例
+
+<p align="center">
+  <img src="./assets/readme/henu-kit-audit-example.svg" width="100%" alt="public-ready 对 HENU Kit 的真实审计结果节选，展示扫描概述和四类代表性发现">
+</p>
+
+上图来自 `public-ready` 对 **HENU Kit** 的一次真实扫描：覆盖 Portal、Console、旧学习平台、QuizCraft 和后端透传错误文案，同类合并后发现 **66 条**问题，其中 **12 条属于上线阻塞项**。
+
+截图选择了四类最有代表性的发现：生产示例数据的合规风险、面向学生暴露内部配置、产品声明缺失，以及第三方地址硬编码。它们同时展示了这个 Skill 的核心能力：**理解产品背景、追踪真实渲染路径、给出文件级证据，并提供可执行修改建议。**
+
+> 图片是对真实运行输出的适配排版，内容来自实际扫描结果；完整输出仍以 Markdown 对账表交付。
 
 ## 四类审计
 
@@ -82,6 +103,28 @@ https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-co
 | ⚪ **D · 硬编码与可维护性** | 应配置化、复用或进入 i18n 的文本 | 固定 URL、环境名、版本号、联系方式、重复文案 |
 
 同一问题可以组合分类，例如 `A+D`：既阻塞上线，也属于硬编码。
+
+## 输出格式
+
+每条发现必须包含六个字段，缺一不可：
+
+```text
+位置（文件:行号）
+原文
+分类（支持 A+D 等组合）
+问题
+建议
+优先级
+```
+
+优先级分为四级：
+
+| 等级 | 含义 |
+| --- | --- |
+| 🔴 上线阻塞 | 不修不应发布 |
+| 🟠 上线前应改 | 直接影响用户理解或操作 |
+| 🟡 建议改 | 影响产品一致性和体验 |
+| ⚪ 可分批 | 主要是配置化与长期维护问题 |
 
 ## 工作流程
 
@@ -99,6 +142,8 @@ https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-co
 用户确认后再修改
 ```
 
+产品画像会落盘到 `<项目根>/.agents/public-ready-profile.md`，后续扫描直接复用，不用每次重新确认。
+
 ### 扫描范围
 
 - 页面和组件中的文本节点、按钮、标题、占位符、`aria-label` 与 `alt`
@@ -109,28 +154,6 @@ https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-co
 - 可能被渲染为真实内容的 mock 或静态示例数据
 
 基础设施日志、测试断言和仅开发者可见的内部代码，不会因为关键词命中就被误判为用户文案。
-
-## 输出契约
-
-每条发现必须包含：
-
-```text
-位置（文件:行号）
-原文
-分类（支持 A+D 等组合）
-问题
-建议
-优先级
-```
-
-优先级分为：
-
-| 等级 | 含义 |
-| --- | --- |
-| 🔴 上线阻塞 | 不修不应发布 |
-| 🟠 上线前应改 | 直接影响用户理解或操作 |
-| 🟡 建议改 | 影响产品一致性和体验 |
-| ⚪ 可分批 | 主要是配置化与长期维护问题 |
 
 ## 审计原则
 
@@ -147,6 +170,7 @@ https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-co
 public-ready/
 ├── README.md
 ├── SKILL.md
+├── LICENSE
 ├── assets/
 │   └── readme/
 │       ├── hero.svg
@@ -160,4 +184,4 @@ public-ready/
 
 ## License
 
-MIT
+[MIT](./LICENSE) © jry21223
