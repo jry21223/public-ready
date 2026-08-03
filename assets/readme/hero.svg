@@ -1,116 +1,85 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="400" viewBox="0 0 1200 400"
-     role="img" aria-labelledby="title desc">
-  <title id="title">public-ready — 文案上线对账扫描</title>
-  <desc id="desc">一个面向网站和 Web 应用的发布前文案审计 Agent Skill，按 A、B、C、D 四类输出可追溯对账表。</desc>
+     width="1200" height="440" viewBox="0 0 1200 440"
+     role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">public-ready — 发布前文案对账扫描</title>
+  <desc id="heroDesc">public-ready 是一个发布前文案审计 Agent Skill。右侧展示两条真实对账记录：一条 A 类示例数据残留，一条 B 类技术词外露，各自带文件行号、原文和改写建议。</desc>
 
   <defs>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#242A33" stroke-width="1"/>
+    <pattern id="heroGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1B212A" stroke-width="1"/>
     </pattern>
-    <clipPath id="panelClip">
-      <rect x="704" y="48" width="440" height="304" rx="20"/>
-    </clipPath>
   </defs>
 
-  <rect width="1200" height="400" rx="28" fill="#0B0D10"/>
-  <rect width="1200" height="400" rx="28" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="440" rx="28" fill="#0B0D10"/>
+  <rect width="1200" height="440" rx="28" fill="url(#heroGrid)" opacity="0.5"/>
 
-  <g id="title-block" transform="translate(64 54)">
-    <text x="0" y="0"
-          fill="#9AA4B2" font-size="18" font-weight="700"
-          font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-          letter-spacing="2">AGENT SKILL / COPY LAUNCH AUDIT</text>
+  <g id="title-block" transform="translate(64 0)">
+    <text x="0" y="92"
+          fill="#8D98A6" font-size="18" font-weight="700" letter-spacing="2"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">AGENT SKILL · COPY LAUNCH AUDIT</text>
 
-    <text x="0" y="88"
-          fill="#F7F8FA" font-size="72" font-weight="760"
-          font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-      public-ready
-    </text>
+    <text x="0" y="166"
+          fill="#F7F8FA" font-size="68" font-weight="760"
+          font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">public-ready</text>
 
-    <text x="0" y="142"
-          fill="#D5DAE1" font-size="26" font-weight="600"
-          font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-      把“能运行”变成“能上线”
-    </text>
+    <text x="0" y="214"
+          fill="#D5DAE1" font-size="27" font-weight="600"
+          font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">上线前扫一遍用户能看到的每一句话</text>
 
-    <text x="0" y="184"
+    <text x="0" y="254"
           fill="#AEB7C2" font-size="21"
-          font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-      扫描用户可见文案，输出可追溯的发布前对账表。
-    </text>
+          font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">找出不该上线的文案，输出带文件行号的对账表。</text>
 
-    <g transform="translate(0 232)">
-      <rect x="0" y="0" width="154" height="38" rx="19" fill="#151A20" stroke="#343C47"/>
-      <text x="77" y="25" text-anchor="middle" fill="#D8DEE7" font-size="17" font-weight="650"
-            font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Agent-agnostic</text>
+    <g transform="translate(0 292)">
+      <rect x="0" y="0" width="156" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
+      <text x="78" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
+            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Agent-agnostic</text>
 
-      <rect x="168" y="0" width="132" height="38" rx="19" fill="#151A20" stroke="#343C47"/>
-      <text x="234" y="25" text-anchor="middle" fill="#D8DEE7" font-size="17" font-weight="650"
-            font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Audit first</text>
+      <rect x="170" y="0" width="134" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
+      <text x="237" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
+            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Audit first</text>
 
-      <rect x="314" y="0" width="158" height="38" rx="19" fill="#151A20" stroke="#343C47"/>
-      <text x="393" y="25" text-anchor="middle" fill="#D8DEE7" font-size="17" font-weight="650"
-            font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Evidence-based</text>
+      <rect x="318" y="0" width="166" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
+      <text x="401" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
+            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Evidence-based</text>
     </g>
 
-    <text x="0" y="326"
-          fill="#707B89" font-size="16"
-          font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-      file:line  &gt;  original  &gt;  issue  &gt;  suggestion  &gt;  priority
-    </text>
+    <text x="0" y="392"
+          fill="#707B89" font-size="18" letter-spacing="0.5"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">位置 → 原文 → 分类 → 问题 → 建议 → 优先级</text>
   </g>
 
-  <g id="audit-proof">
-    <rect x="704" y="48" width="440" height="304" rx="20" fill="#12161B" stroke="#343C47" stroke-width="1.5"/>
-    <g clip-path="url(#panelClip)">
-      <rect x="704" y="48" width="440" height="58" fill="#171C22"/>
-      <text x="734" y="84" fill="#E8EBEF" font-size="18" font-weight="750"
-            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-        SCAN RESULT
-      </text>
-      <circle cx="1050" cy="77" r="6" fill="#5AD8A6"/>
-      <text x="1066" y="83" fill="#8D98A6" font-size="15"
-            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-        READY
-      </text>
+  <g id="audit-rows" transform="translate(668 52)">
+    <rect x="0" y="0" width="468" height="336" rx="20" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
 
-      <g transform="translate(728 126)">
-        <rect x="0" y="0" width="48" height="42" rx="10" fill="#4A1F25"/>
-        <text x="24" y="28" text-anchor="middle" fill="#FF6B6B" font-size="21" font-weight="800"
-              font-family="ui-monospace, SFMono-Regular, Menlo, monospace">A</text>
-        <text x="66" y="27" fill="#E7EAF0" font-size="20" font-weight="650"
-              font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-          占位 / 调试 / 内部信息
-        </text>
+    <text x="26" y="40" fill="#8D98A6" font-size="18" font-weight="700" letter-spacing="1.5"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">对账表 · 节选</text>
+    <path d="M 0 60 H 468" stroke="#2C333D" stroke-width="1"/>
 
-        <rect x="0" y="54" width="48" height="42" rx="10" fill="#4D3217"/>
-        <text x="24" y="82" text-anchor="middle" fill="#FFAA4C" font-size="21" font-weight="800"
-              font-family="ui-monospace, SFMono-Regular, Menlo, monospace">B</text>
-        <text x="66" y="81" fill="#E7EAF0" font-size="20" font-weight="650"
-              font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-          技术词 / 生硬提示
-        </text>
+    <g id="row-a" transform="translate(26 78)">
+      <rect x="0" y="0" width="46" height="40" rx="10" fill="#3A1D22"/>
+      <text x="23" y="27" text-anchor="middle" fill="#FF6B6B" font-size="21" font-weight="800"
+            font-family="ui-monospace, SFMono-Regular, Menlo, monospace">A</text>
+      <text x="60" y="26" fill="#8D98A6" font-size="18"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">lib/campus/mock.ts:106</text>
+      <text x="0" y="66" fill="#E7EAF0" font-size="21" font-weight="600"
+            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">「代做作业示例」</text>
+      <text x="0" y="96" fill="#5AD8A6" font-size="20"
+            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">→ 上线前删除，或明确标注为示例</text>
+    </g>
 
-        <rect x="0" y="108" width="48" height="42" rx="10" fill="#4B4019"/>
-        <text x="24" y="136" text-anchor="middle" fill="#FFD166" font-size="21" font-weight="800"
-              font-family="ui-monospace, SFMono-Regular, Menlo, monospace">C</text>
-        <text x="66" y="135" fill="#E7EAF0" font-size="20" font-weight="650"
-              font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-          定位与语气偏差
-        </text>
+    <path d="M 26 196 H 442" stroke="#20262F" stroke-width="1"/>
 
-        <rect x="0" y="162" width="48" height="42" rx="10" fill="#2B3139"/>
-        <text x="24" y="190" text-anchor="middle" fill="#BCC5D0" font-size="21" font-weight="800"
-              font-family="ui-monospace, SFMono-Regular, Menlo, monospace">D</text>
-        <text x="66" y="189" fill="#E7EAF0" font-size="20" font-weight="650"
-              font-family="'Noto Sans CJK SC', 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-          硬编码 / 重复文案
-        </text>
-      </g>
-
-      <rect x="1118" y="106" width="2" height="246" fill="#5AD8A6" opacity="0.8"/>
-      <rect x="1108" y="209" width="22" height="3" rx="1.5" fill="#5AD8A6"/>
+    <g id="row-b" transform="translate(26 214)">
+      <rect x="0" y="0" width="46" height="40" rx="10" fill="#3D2A15"/>
+      <text x="23" y="27" text-anchor="middle" fill="#FFAA4C" font-size="21" font-weight="800"
+            font-family="ui-monospace, SFMono-Regular, Menlo, monospace">B</text>
+      <text x="60" y="26" fill="#8D98A6" font-size="18"
+            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">pages/Login.tsx:88</text>
+      <text x="0" y="66" fill="#E7EAF0" font-size="21" font-weight="600"
+            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">「token 已过期」</text>
+      <text x="0" y="96" fill="#5AD8A6" font-size="20"
+            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">→ 登录已过期，请重新登录</text>
     </g>
   </g>
 </svg>
