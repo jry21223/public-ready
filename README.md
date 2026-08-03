@@ -11,17 +11,14 @@
 | 🟡 C 与初衷不符 | 语气/口径与产品定位矛盾、价值主张缺失 | 正式平台卖萌腔、首页只报系统名不讲价值 |
 | ⚪ D 硬编码项 | 写死的、应配置化/走 i18n 的内容 | 硬编码 URL、环境名、版本号、联系方式、重复文案 |
 
-## 安装
+## 使用（Agent-agnostic）
 
-```bash
-# 全局安装（所有项目可用，推荐）
-git clone https://github.com/jry21223/public-ready.git ~/.agents/skills/public-ready
+把下面两个链接发给你的 AI 工具（Claude Code、Codex、Cursor、Hermes、Trae 等任意支持 Skill 的 agent），它会自动读取并执行：
 
-# 或项目级安装（随仓库分发给协作者）
-git clone https://github.com/jry21223/public-ready.git <项目>/.agents/skills/public-ready
 ```
-
-## 用法
+https://raw.githubusercontent.com/jry21223/public-ready/main/SKILL.md
+https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-copy-patterns.md
+```
 
 对 agent 说以下任何一句即可自动触发（不要求专业词）：
 
@@ -31,7 +28,7 @@ git clone https://github.com/jry21223/public-ready.git <项目>/.agents/skills/p
 - 「帮我**检查/打磨一下文案**、提示语、报错信息」
 - 「看看有没有**占位**、**写死的**、测试数据残留」
 
-也可以手动调用 `/public-ready`。
+也可以手动要求 agent「读取 SKILL.md 并执行」。
 
 默认**只出对账表、不改代码**；确认修改建议后 agent 才会动手改。
 
