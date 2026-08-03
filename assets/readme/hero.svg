@@ -20,28 +20,28 @@
 
     <text x="0" y="166"
           fill="#F7F8FA" font-size="68" font-weight="760"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">public-ready</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">public-ready</text>
 
     <text x="0" y="214"
           fill="#D5DAE1" font-size="27" font-weight="600"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">上线前扫一遍用户能看到的每一句话</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">上线前扫一遍用户能看到的每一句话</text>
 
     <text x="0" y="254"
           fill="#AEB7C2" font-size="21"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">找出不该上线的文案，输出带文件行号的对账表。</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">找出不该上线的文案，输出带文件行号的对账表。</text>
 
     <g transform="translate(0 292)">
       <rect x="0" y="0" width="156" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
       <text x="78" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
-            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Agent-agnostic</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">Agent-agnostic</text>
 
       <rect x="170" y="0" width="134" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
       <text x="237" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
-            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Audit first</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">Audit first</text>
 
       <rect x="318" y="0" width="166" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
       <text x="401" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
-            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">Evidence-based</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">Evidence-based</text>
     </g>
 
     <text x="0" y="392"
@@ -63,9 +63,9 @@
       <text x="60" y="26" fill="#8D98A6" font-size="18"
             font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">lib/campus/mock.ts:106</text>
       <text x="0" y="66" fill="#E7EAF0" font-size="21" font-weight="600"
-            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">「代做作业示例」</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「代做作业示例」</text>
       <text x="0" y="96" fill="#5AD8A6" font-size="20"
-            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">→ 上线前删除，或明确标注为示例</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 上线前删除，或明确标注为示例</text>
     </g>
 
     <path d="M 26 196 H 442" stroke="#20262F" stroke-width="1"/>
@@ -77,9 +77,9 @@
       <text x="60" y="26" fill="#8D98A6" font-size="18"
             font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">pages/Login.tsx:88</text>
       <text x="0" y="66" fill="#E7EAF0" font-size="21" font-weight="600"
-            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">「token 已过期」</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「token 已过期」</text>
       <text x="0" y="96" fill="#5AD8A6" font-size="20"
-            font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">→ 登录已过期，请重新登录</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 登录已过期，请重新登录</text>
     </g>
   </g>
 </svg>

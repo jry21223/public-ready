@@ -14,7 +14,7 @@
     <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">01</text>
     <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">探索项目</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">探索项目</text>
   </g>
   <path d="M 223 139 L 233 146 L 223 153" fill="none" stroke="#4A5462" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
@@ -23,7 +23,7 @@
     <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">02</text>
     <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">建立画像</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">建立画像</text>
   </g>
   <path d="M 409 139 L 419 146 L 409 153" fill="none" stroke="#4A5462" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
@@ -32,7 +32,7 @@
     <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">03</text>
     <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">拆分扫描</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">拆分扫描</text>
   </g>
   <path d="M 595 139 L 605 146 L 595 153" fill="none" stroke="#4A5462" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
@@ -41,7 +41,7 @@
     <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">04</text>
     <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">四类核对</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">四类核对</text>
     <g transform="translate(30 78)">
       <circle cx="0" cy="0" r="5" fill="#FF6B6B"/>
       <circle cx="16" cy="0" r="5" fill="#FFAA4C"/>
@@ -56,7 +56,7 @@
     <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">05</text>
     <text x="78" y="66" text-anchor="middle" fill="#F7F8FA" font-size="21" font-weight="700"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">汇总对账表</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">汇总对账表</text>
   </g>
   <path d="M 967 139 L 977 146 L 967 153" fill="none" stroke="#3A4250" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 5"/>
 
@@ -65,14 +65,14 @@
     <text x="16" y="30" fill="#4A5462" font-size="17" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">06</text>
     <text x="78" y="66" text-anchor="middle" fill="#8D98A6" font-size="21" font-weight="650"
-          font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">确认后修改</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">确认后修改</text>
   </g>
 
   <text x="879" y="230" text-anchor="middle" fill="#5AD8A6" font-size="18" font-weight="650"
-        font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">默认交付到这里</text>
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">默认交付到这里</text>
   <text x="1065" y="230" text-anchor="middle" fill="#707B89" font-size="18"
-        font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">你点头才动手</text>
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">你点头才动手</text>
 
   <text x="57" y="258" fill="#707B89" font-size="18"
-        font-family="'PingFang SC', 'Noto Sans CJK SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">画像落盘到 .agents/public-ready-profile.md，后续扫描直接复用</text>
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">画像落盘到 .agents/public-ready-profile.md，后续扫描直接复用</text>
 </svg>
