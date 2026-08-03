@@ -30,7 +30,7 @@ https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-co
 
 也可以手动要求 agent「读取 SKILL.md 并执行」。
 
-默认**只出对账表、不改代码**；确认修改建议后 agent 才会动手改。
+默认**只出对账表、不改代码**；确认修改建议后 agent 才会动手改。开扫前 agent 会先快速探索目标，并一次性跟你对齐**范围 / 深度 / 类别 / 语气基准**——有不对的直接纠正，按确认的颗粒度开扫。
 
 ## 输出
 
