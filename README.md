@@ -97,6 +97,28 @@
 
 ### 1. 安装
 
+**推荐：npx skills（自动适配 70+ 种 Agent：Claude Code、Cursor、Codex、Zed、Trae……）**
+
+```bash
+# 全局安装（所有项目可用）
+npx skills add jry21223/public-ready -g
+
+# 只装到当前项目
+npx skills add jry21223/public-ready
+
+# 指定目标 Agent（如只装给 Claude Code）
+npx skills add jry21223/public-ready -a claude-code
+```
+
+CLI 会自动检测你已安装的 Agent 并装到对应 skills 目录（加 `-y` 跳过交互确认），装完直接用自然语言发起审计即可。
+
+**手动安装（git clone）**
+
+<details>
+<summary>Claude Code / 直接读取文件</summary>
+
+<br>
+
 **Claude Code（全局可用）**
 
 ```bash
@@ -115,6 +137,8 @@ git clone https://github.com/jry21223/public-ready.git .claude/skills/public-rea
 https://raw.githubusercontent.com/jry21223/public-ready/main/SKILL.md
 https://raw.githubusercontent.com/jry21223/public-ready/main/references/stiff-copy-patterns.md
 ```
+
+</details>
 
 ### 2. 用自然语言发起审计
 
