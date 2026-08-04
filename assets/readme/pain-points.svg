@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="456" viewBox="0 0 1200 456"
+     role="img" aria-labelledby="ppTitle ppDesc">
+  <title id="ppTitle">public-ready 扫的四类真实问题</title>
+  <desc id="ppDesc">四类常见问题及真实改写示例：文案不匹配（C 类）、mock 混进生产（A 类）、人机感（B 类）、报错不清晰（B 类）。每类给出上线前的原文和改写后的建议。</desc>
+
+  <rect width="1200" height="456" rx="24" fill="#0B0D10"/>
+
+  <g id="pain-mismatch" transform="translate(56 48)">
+    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
+    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3B3418"/>
+    <text x="47" y="48" text-anchor="middle" fill="#FFD166" font-size="20" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">C</text>
+    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">文案不匹配</text>
+    <text x="24" y="104" fill="#8D98A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「XX 系统 v1.0」</text>
+    <text x="24" y="136" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 查成绩、看课表、抢课，都在这儿</text>
+  </g>
+
+  <g id="pain-mock" transform="translate(616 48)">
+    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
+    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3A1D22"/>
+    <text x="47" y="48" text-anchor="middle" fill="#FF6B6B" font-size="20" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">A</text>
+    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">mock 混进生产</text>
+    <text x="24" y="104" fill="#8D98A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「代做作业示例」进了详情页</text>
+    <text x="24" y="136" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 上线前删除，或明确标注为示例</text>
+  </g>
+
+  <g id="pain-robotic" transform="translate(56 248)">
+    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
+    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3D2A15"/>
+    <text x="47" y="48" text-anchor="middle" fill="#FFAA4C" font-size="20" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">B</text>
+    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">人机感</text>
+    <text x="24" y="104" fill="#8D98A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「您的登录状态已失效，请重新进行身份验证」</text>
+    <text x="24" y="136" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 登录已过期，请重新登录</text>
+  </g>
+
+  <g id="pain-error" transform="translate(616 248)">
+    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
+    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3D2A15"/>
+    <text x="47" y="48" text-anchor="middle" fill="#FFAA4C" font-size="20" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">B</text>
+    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">报错不清晰</text>
+    <text x="24" y="104" fill="#8D98A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「系统繁忙，请稍后重试」</text>
+    <text x="24" y="136" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 网络不太顺畅，请检查网络后重试</text>
+  </g>
+</svg>
