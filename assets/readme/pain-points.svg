@@ -1,60 +1,102 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="456" viewBox="0 0 1200 456"
+     width="1200" height="600" viewBox="0 0 1200 600"
      role="img" aria-labelledby="ppTitle ppDesc">
-  <title id="ppTitle">public-ready 扫的四类真实问题</title>
-  <desc id="ppDesc">四类常见问题及真实改写示例：文案不匹配（C 类）、mock 混进生产（A 类）、人机感（B 类）、报错不清晰（B 类）。每类给出上线前的原文和改写后的建议。</desc>
+  <title id="ppTitle">public-ready 扫出来的六类文案问题</title>
+  <desc id="ppDesc">六组上线前原文与改写后的对照：AI 味万能句、emoji 功能列表、张三假评价、泛化成功提示、甩锅式报错、技术词外露。每组标注分类字母与改写建议。</desc>
 
-  <rect width="1200" height="456" rx="24" fill="#0B0D10"/>
+  <defs>
+    <pattern id="ppGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1B212A" stroke-width="1"/>
+    </pattern>
+  </defs>
 
-  <g id="pain-mismatch" transform="translate(56 48)">
-    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
-    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3B3418"/>
-    <text x="47" y="48" text-anchor="middle" fill="#FFD166" font-size="20" font-weight="800"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">C</text>
-    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">文案不匹配</text>
-    <text x="24" y="104" fill="#8D98A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「XX 系统 v1.0」</text>
-    <text x="24" y="136" fill="#5AD8A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 查成绩、看课表、抢课，都在这儿</text>
+  <rect width="1200" height="600" rx="28" fill="#0B0D10"/>
+  <rect width="1200" height="600" rx="28" fill="url(#ppGrid)" opacity="0.5"/>
+
+  <text x="48" y="62" fill="#8D98A6" font-size="17" font-weight="700" letter-spacing="2"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">BEFORE → AFTER</text>
+  <text x="1152" y="62" text-anchor="end" fill="#5A6472" font-size="17"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">A 未完成 · B 不友好 · C 不一致 · D 硬编码 · E AI 味</text>
+  <path d="M 48 84 H 1152" stroke="#20262F" stroke-width="1"/>
+
+  <!-- ============ 第 1 行 ============ -->
+  <g transform="translate(48 112)">
+    <rect x="0" y="0" width="528" height="140" rx="16" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <rect x="22" y="22" width="44" height="34" rx="9" fill="#2A1F45"/>
+    <text x="44" y="46" text-anchor="middle" fill="#C08CFF" font-size="19" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">E</text>
+    <text x="78" y="45" fill="#7C8794" font-size="17"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">换个产品名照样成立</text>
+    <text x="22" y="88" fill="#E7EAF0" font-size="22" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">「让校园生活更简单」</text>
+    <text x="22" y="120" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">→ 查成绩、看课表、抢课，都在这儿</text>
   </g>
 
-  <g id="pain-mock" transform="translate(616 48)">
-    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
-    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3A1D22"/>
-    <text x="47" y="48" text-anchor="middle" fill="#FF6B6B" font-size="20" font-weight="800"
-          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">A</text>
-    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">mock 混进生产</text>
-    <text x="24" y="104" fill="#8D98A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「代做作业示例」进了详情页</text>
-    <text x="24" y="136" fill="#5AD8A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 上线前删除，或明确标注为示例</text>
+  <g transform="translate(624 112)">
+    <rect x="0" y="0" width="528" height="140" rx="16" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <rect x="22" y="22" width="44" height="34" rx="9" fill="#2A1F45"/>
+    <text x="44" y="46" text-anchor="middle" fill="#C08CFF" font-size="19" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">E</text>
+    <text x="78" y="45" fill="#7C8794" font-size="17"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">emoji 当项目符号，三个形容词</text>
+    <text x="22" y="88" fill="#E7EAF0" font-size="22" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">「✨ 智能识别 · 高效便捷 · 一站式」</text>
+    <text x="22" y="120" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">→ 拍一张课表照片，自动导入日历</text>
   </g>
 
-  <g id="pain-robotic" transform="translate(56 248)">
-    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
-    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3D2A15"/>
-    <text x="47" y="48" text-anchor="middle" fill="#FFAA4C" font-size="20" font-weight="800"
+  <!-- ============ 第 2 行 ============ -->
+  <g transform="translate(48 272)">
+    <rect x="0" y="0" width="528" height="140" rx="16" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <rect x="22" y="22" width="66" height="34" rx="9" fill="#33203A"/>
+    <text x="55" y="46" text-anchor="middle" fill="#E08CD8" font-size="19" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">A+E</text>
+    <text x="100" y="45" fill="#7C8794" font-size="17"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">假评价经 SSG 进了生产页</text>
+    <text x="22" y="88" fill="#E7EAF0" font-size="22" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">「张三：彻底改变了我的工作方式！」</text>
+    <text x="22" y="120" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">→ 换成真实用户，或只写使用场景</text>
+  </g>
+
+  <g transform="translate(624 272)">
+    <rect x="0" y="0" width="528" height="140" rx="16" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <rect x="22" y="22" width="44" height="34" rx="9" fill="#2A1F45"/>
+    <text x="44" y="46" text-anchor="middle" fill="#C08CFF" font-size="19" font-weight="800"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">E</text>
+    <text x="78" y="45" fill="#7C8794" font-size="17"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">热情，但没说清发生了什么</text>
+    <text x="22" y="88" fill="#E7EAF0" font-size="22" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">「太棒了！操作成功！」</text>
+    <text x="22" y="120" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">→ 已保存，可以在「我的收藏」里找到</text>
+  </g>
+
+  <!-- ============ 第 3 行 ============ -->
+  <g transform="translate(48 432)">
+    <rect x="0" y="0" width="528" height="140" rx="16" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <rect x="22" y="22" width="44" height="34" rx="9" fill="#3D2A15"/>
+    <text x="44" y="46" text-anchor="middle" fill="#FFAA4C" font-size="19" font-weight="800"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">B</text>
-    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">人机感</text>
-    <text x="24" y="104" fill="#8D98A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「您的登录状态已失效，请重新进行身份验证」</text>
-    <text x="24" y="136" fill="#5AD8A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 登录已过期，请重新登录</text>
+    <text x="78" y="45" fill="#7C8794" font-size="17"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">不给原因，也不给下一步</text>
+    <text x="22" y="88" fill="#E7EAF0" font-size="22" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">「系统繁忙，请稍后重试」</text>
+    <text x="22" y="120" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">→ 网络不太顺畅，请检查网络后重试</text>
   </g>
 
-  <g id="pain-error" transform="translate(616 248)">
-    <rect width="528" height="160" rx="18" fill="#12161B" stroke="#2C333D"/>
-    <rect x="24" y="24" width="46" height="34" rx="9" fill="#3D2A15"/>
-    <text x="47" y="48" text-anchor="middle" fill="#FFAA4C" font-size="20" font-weight="800"
+  <g transform="translate(624 432)">
+    <rect x="0" y="0" width="528" height="140" rx="16" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <rect x="22" y="22" width="44" height="34" rx="9" fill="#3D2A15"/>
+    <text x="44" y="46" text-anchor="middle" fill="#FFAA4C" font-size="19" font-weight="800"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">B</text>
-    <text x="86" y="49" fill="#F7F8FA" font-size="25" font-weight="700"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">报错不清晰</text>
-    <text x="24" y="104" fill="#8D98A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「系统繁忙，请稍后重试」</text>
-    <text x="24" y="136" fill="#5AD8A6" font-size="20"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 网络不太顺畅，请检查网络后重试</text>
+    <text x="78" y="45" fill="#7C8794" font-size="17"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">写的人懂，看的人不懂</text>
+    <text x="22" y="88" fill="#E7EAF0" font-size="22" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">「token 已过期」</text>
+    <text x="22" y="120" fill="#5AD8A6" font-size="20"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">→ 登录已过期，请重新登录</text>
   </g>
 </svg>
