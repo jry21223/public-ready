@@ -1,78 +1,90 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="300" viewBox="0 0 1200 300"
+     width="1200" height="330" viewBox="0 0 1200 330"
      role="img" aria-labelledby="wfTitle wfDesc">
   <title id="wfTitle">public-ready 工作流程</title>
-  <desc id="wfDesc">六个阶段依次进行：探索项目、建立画像、拆分扫描、四类核对、汇总对账表，最后一步「确认后修改」用虚线标出，表示默认不执行，需用户确认。</desc>
+  <desc id="wfDesc">七个阶段依次进行：探索项目、建立画像、拆分扫描、五类核对、跨模块比对、汇总对账表，最后一步「确认后修改」用虚线标出，表示默认不执行，需用户确认。</desc>
 
-  <rect width="1200" height="300" rx="24" fill="#0B0D10"/>
+  <defs>
+    <pattern id="wfGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1B212A" stroke-width="1"/>
+    </pattern>
+  </defs>
 
-  <text x="57" y="54" fill="#8D98A6" font-size="18" font-weight="700" letter-spacing="1.5"
+  <rect width="1200" height="330" rx="28" fill="#0B0D10"/>
+  <rect width="1200" height="330" rx="28" fill="url(#wfGrid)" opacity="0.5"/>
+
+  <text x="48" y="58" fill="#8D98A6" font-size="17" font-weight="700" letter-spacing="2"
         font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">WORKFLOW</text>
 
-  <g id="stage-1" transform="translate(57 100)">
-    <rect width="156" height="92" rx="14" fill="#12161B" stroke="#2C333D"/>
-    <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
+  <!-- 连接线 -->
+  <path d="M 190 148 H 210" stroke="#2C333D" stroke-width="2"/>
+  <path d="M 342 148 H 362" stroke="#2C333D" stroke-width="2"/>
+  <path d="M 494 148 H 514" stroke="#2C333D" stroke-width="2"/>
+  <path d="M 646 148 H 666" stroke="#2C333D" stroke-width="2"/>
+  <path d="M 798 148 H 818" stroke="#2C333D" stroke-width="2"/>
+  <path d="M 950 148 H 970" stroke="#3A2E58" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <g transform="translate(48 96)">
+    <rect x="0" y="0" width="142" height="104" rx="14" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <text x="18" y="34" fill="#5A6472" font-size="16" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">01</text>
-    <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">探索项目</text>
+    <text x="18" y="72" fill="#E7EAF0" font-size="20" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">探索项目</text>
   </g>
-  <path d="M 223 139 L 233 146 L 223 153" fill="none" stroke="#4A5462" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g id="stage-2" transform="translate(243 100)">
-    <rect width="156" height="92" rx="14" fill="#12161B" stroke="#2C333D"/>
-    <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
+  <g transform="translate(200 96)">
+    <rect x="0" y="0" width="142" height="104" rx="14" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <text x="18" y="34" fill="#5A6472" font-size="16" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">02</text>
-    <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">建立画像</text>
+    <text x="18" y="72" fill="#E7EAF0" font-size="20" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">建立画像</text>
   </g>
-  <path d="M 409 139 L 419 146 L 409 153" fill="none" stroke="#4A5462" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g id="stage-3" transform="translate(429 100)">
-    <rect width="156" height="92" rx="14" fill="#12161B" stroke="#2C333D"/>
-    <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
+  <g transform="translate(352 96)">
+    <rect x="0" y="0" width="142" height="104" rx="14" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <text x="18" y="34" fill="#5A6472" font-size="16" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">03</text>
-    <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">拆分扫描</text>
+    <text x="18" y="72" fill="#E7EAF0" font-size="20" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">拆分扫描</text>
   </g>
-  <path d="M 595 139 L 605 146 L 595 153" fill="none" stroke="#4A5462" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g id="stage-4" transform="translate(615 100)">
-    <rect width="156" height="92" rx="14" fill="#12161B" stroke="#2C333D"/>
-    <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
+  <g transform="translate(504 96)">
+    <rect x="0" y="0" width="142" height="104" rx="14" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <text x="18" y="34" fill="#5A6472" font-size="16" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">04</text>
-    <text x="78" y="66" text-anchor="middle" fill="#E7EAF0" font-size="21" font-weight="650"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">四类核对</text>
-    <g transform="translate(30 78)">
-      <circle cx="0" cy="0" r="5" fill="#FF6B6B"/>
-      <circle cx="16" cy="0" r="5" fill="#FFAA4C"/>
-      <circle cx="32" cy="0" r="5" fill="#FFD166"/>
-      <circle cx="48" cy="0" r="5" fill="#BCC5D0"/>
-    </g>
+    <text x="18" y="72" fill="#E7EAF0" font-size="20" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">五类核对</text>
   </g>
-  <path d="M 781 139 L 791 146 L 781 153" fill="none" stroke="#4A5462" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 
-  <g id="stage-5" transform="translate(801 100)">
-    <rect width="156" height="92" rx="14" fill="#161C23" stroke="#5AD8A6" stroke-width="1.5"/>
-    <text x="16" y="30" fill="#5A6472" font-size="17" font-weight="700"
+  <g transform="translate(656 96)">
+    <rect x="0" y="0" width="142" height="104" rx="14" fill="#141A22" stroke="#3E4A5C" stroke-width="1.5"/>
+    <text x="18" y="34" fill="#5A6472" font-size="16" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">05</text>
-    <text x="78" y="66" text-anchor="middle" fill="#F7F8FA" font-size="21" font-weight="700"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">汇总对账表</text>
+    <text x="18" y="72" fill="#E7EAF0" font-size="20" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">跨模块比对</text>
   </g>
-  <path d="M 967 139 L 977 146 L 967 153" fill="none" stroke="#3A4250" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 5"/>
 
-  <g id="stage-6" transform="translate(987 100)">
-    <rect width="156" height="92" rx="14" fill="#0E1216" stroke="#3A4250" stroke-dasharray="6 5"/>
-    <text x="16" y="30" fill="#4A5462" font-size="17" font-weight="700"
+  <g transform="translate(808 96)">
+    <rect x="0" y="0" width="142" height="104" rx="14" fill="#12161B" stroke="#2C333D" stroke-width="1.5"/>
+    <text x="18" y="34" fill="#5A6472" font-size="16" font-weight="700"
           font-family="ui-monospace, SFMono-Regular, Menlo, monospace">06</text>
-    <text x="78" y="66" text-anchor="middle" fill="#8D98A6" font-size="21" font-weight="650"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">确认后修改</text>
+    <text x="18" y="72" fill="#5AD8A6" font-size="20" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">汇总对账表</text>
   </g>
 
-  <text x="879" y="230" text-anchor="middle" fill="#5AD8A6" font-size="18" font-weight="650"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">默认交付到这里</text>
-  <text x="1065" y="230" text-anchor="middle" fill="#707B89" font-size="18"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">你点头才动手</text>
+  <g transform="translate(960 96)">
+    <rect x="0" y="0" width="142" height="104" rx="14" fill="#0F1216" stroke="#3A2E58" stroke-width="1.5" stroke-dasharray="6 5"/>
+    <text x="18" y="34" fill="#4A5260" font-size="16" font-weight="700"
+          font-family="ui-monospace, SFMono-Regular, Menlo, monospace">07</text>
+    <text x="18" y="72" fill="#8D98A6" font-size="20" font-weight="600"
+          font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">确认后修改</text>
+  </g>
 
-  <text x="57" y="258" fill="#707B89" font-size="18"
-        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">画像落盘到 .agents/public-ready-profile.md，后续扫描直接复用</text>
+  <text x="808" y="240" fill="#5AD8A6" font-size="18" font-weight="650"
+        font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">默认交付到这里</text>
+  <text x="960" y="240" fill="#7C8794" font-size="18"
+        font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">你点头才动手</text>
+
+  <text x="48" y="278" fill="#7C8794" font-size="18"
+        font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Noto Sans CJK SC', sans-serif">第 05 步不能省：重复文案要全项目计数，称呼和语气要跨模块比 —— 每个分片只看得见自己那块目录。</text>
 </svg>

@@ -2,7 +2,7 @@
      width="1200" height="440" viewBox="0 0 1200 440"
      role="img" aria-labelledby="heroTitle heroDesc">
   <title id="heroTitle">public-ready — 发布前文案对账扫描</title>
-  <desc id="heroDesc">public-ready 是一个发布前文案审计 Agent Skill。右侧展示两条真实对账记录：一条 A 类示例数据残留，一条 B 类技术词外露，各自带文件行号、原文和改写建议。</desc>
+  <desc id="heroDesc">public-ready 是一个发布前文案审计 Agent Skill。右侧展示两条对账记录：一条 E 类 AI 味空词，一条 B 类技术词外露，各自带文件行号、原文和改写建议。</desc>
 
   <defs>
     <pattern id="heroGrid" width="32" height="32" patternUnits="userSpaceOnUse">
@@ -28,19 +28,19 @@
 
     <text x="0" y="254"
           fill="#AEB7C2" font-size="21"
-          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">找出不该上线的文案，输出带文件行号的对账表。</text>
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">AI 味、没做完的痕迹、看不懂的报错，逐条列出来给你。</text>
 
     <g transform="translate(0 292)">
       <rect x="0" y="0" width="156" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
       <text x="78" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">Agent-agnostic</text>
 
-      <rect x="170" y="0" width="134" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
-      <text x="237" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
-            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">Audit first</text>
+      <rect x="170" y="0" width="164" height="40" rx="20" fill="#1D1730" stroke="#3A2E58"/>
+      <text x="252" y="26" text-anchor="middle" fill="#C08CFF" font-size="18" font-weight="650"
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">AI-slop aware</text>
 
-      <rect x="318" y="0" width="166" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
-      <text x="401" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
+      <rect x="348" y="0" width="166" height="40" rx="20" fill="#151A20" stroke="#2C333D"/>
+      <text x="431" y="26" text-anchor="middle" fill="#D8DEE7" font-size="18" font-weight="650"
             font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">Evidence-based</text>
     </g>
 
@@ -56,16 +56,16 @@
           font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">对账表 · 节选</text>
     <path d="M 0 60 H 468" stroke="#2C333D" stroke-width="1"/>
 
-    <g id="row-a" transform="translate(26 78)">
-      <rect x="0" y="0" width="46" height="40" rx="10" fill="#3A1D22"/>
-      <text x="23" y="27" text-anchor="middle" fill="#FF6B6B" font-size="21" font-weight="800"
-            font-family="ui-monospace, SFMono-Regular, Menlo, monospace">A</text>
+    <g id="row-e" transform="translate(26 78)">
+      <rect x="0" y="0" width="46" height="40" rx="10" fill="#2A1F45"/>
+      <text x="23" y="27" text-anchor="middle" fill="#C08CFF" font-size="21" font-weight="800"
+            font-family="ui-monospace, SFMono-Regular, Menlo, monospace">E</text>
       <text x="60" y="26" fill="#8D98A6" font-size="18"
-            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">lib/campus/mock.ts:106</text>
+            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">app/page.tsx:24</text>
       <text x="0" y="66" fill="#E7EAF0" font-size="21" font-weight="600"
-            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「代做作业示例」</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「让校园生活更简单」</text>
       <text x="0" y="96" fill="#5AD8A6" font-size="20"
-            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 上线前删除，或明确标注为示例</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 查成绩、看课表、抢课，都在这儿</text>
     </g>
 
     <path d="M 26 196 H 442" stroke="#20262F" stroke-width="1"/>
@@ -75,11 +75,11 @@
       <text x="23" y="27" text-anchor="middle" fill="#FFAA4C" font-size="21" font-weight="800"
             font-family="ui-monospace, SFMono-Regular, Menlo, monospace">B</text>
       <text x="60" y="26" fill="#8D98A6" font-size="18"
-            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">pages/Login.tsx:88</text>
+            font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">pay-form.tsx:112</text>
       <text x="0" y="66" fill="#E7EAF0" font-size="21" font-weight="600"
-            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「token 已过期」</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">「参数校验失败」</text>
       <text x="0" y="96" fill="#5AD8A6" font-size="20"
-            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 登录已过期，请重新登录</text>
+            font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Microsoft YaHei', sans-serif">→ 银行卡号看起来不太对，请检查</text>
     </g>
   </g>
 </svg>
